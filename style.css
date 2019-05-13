@@ -1,0 +1,380 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #FAFAFA;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+nav {
+	width: 1024px;
+	margin: 0 auto;
+}
+.logo-image {
+	width: 150px;
+	height: 70px;
+}
+.nav-list {
+	float: right;
+}
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	padding: 30px;
+	color: #FAFAFA;
+	font-size: 16px;
+}
+.main-visual {
+	text-align: center;
+	width: 100%;
+	height: 650px;
+	background-image: url(img2/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+.main-visual-name {
+	padding-top: 200px;
+	padding-bottom: 10px;
+	color: #FAFAFA;
+	font-size: 64px;
+}
+.main-visual-text {
+	color: #FAFAFA;
+	font-size: 20px;
+}
+.portfolio-all {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.portfolio {
+	width: 920px;
+	text-align: center;
+	margin: 0 auto;
+}
+.portfolio-title {
+	padding-top: 90px;
+	padding-bottom: 8px;
+	color: #000000;
+	font-size: 32px;
+}
+hr {
+	width: 70px;
+	height: 3px;
+	margin: 0 auto;
+	background-color: #EC715F;
+	border: none;
+}
+.portfolio-text {
+	padding: 30px 0;
+	color: #000000;
+	font-size: 16px;
+}
+.portfolio-image-all {
+	margin-bottom: 90px;
+}
+.portfolio-image {
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-size: cover;
+	background-position: center;
+}
+.portfolio-image:nth-child(1) {
+	background-image: url(img2/sketch.jpg);
+}
+.portfolio-image:nth-child(2) {
+	background-image: url(img2/websuku.png);
+}
+.portfolio-image:nth-child(3) {
+	background-image: url(img2/write.jpg);
+}
+.portfolio-image:nth-child(4) {
+	background-image: url(img2/webcamp.png);
+}
+.portfolio-image:nth-child(5) {
+	background-image: url(img2/talk.jpg);
+}
+.portfolio-image:nth-child(6) {
+	background-image: url(img2/webcamp-mother.png);
+}
+.portfolio-image:nth-child(3n) {
+	margin-right: 0;
+}
+.portfolio-image:nth-child(-n+3) {
+	margin-bottom: 0;
+}
+
+.feature-all {
+	width: 100%;
+	padding: 90px 0;
+}
+.feature {
+	width: 980px;
+	text-align: center;
+	margin: 0 auto;
+}
+.feature-title {
+	padding-bottom: 8px;
+	font-size: 32px;
+	color: #000000;
+}
+.feature-text {
+	padding: 30px 0;
+}
+.feature-message {
+	width: 320px;
+	height: auto;
+	float: left;
+}
+.feature-message i {
+	font-size: 60px;
+}
+.feature-sub-title {
+	padding: 10px 0;
+	font-size: 20px;
+	color: #000000;
+}
+.feature-sub-text {
+	text-align: left;
+	font-size: 16px;
+	color: #000000;
+}
+.feature-message:nth-of-type(2) {
+	margin: 0 10px;
+}
+.profile-all {
+	width: 100%;
+	padding: 90px 0;
+	background-color: #ECEFF1;
+}
+.profile {
+	width: 1024px;
+	text-align: center;
+	margin: 0 auto;
+}
+.profile-title {
+	padding-bottom: 8px;
+	font-size: 32px;
+	color: #000000;
+}
+.profile-text {
+	width: 100%;
+	padding: 30px 0;
+	font-size: 16px;
+	color: #000000;
+}
+.profile-image {
+	background-image: url(img2/my-icon.jpg);
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.profile-image-width {
+	width: 512px;
+	float: left;
+}
+.profile-sub-content-width {
+	width: 512px;
+	float: left;
+	text-align: left;
+}
+.profile-sub-title {
+	font-size: 20px;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+.profile-sub-text {
+	font-size: 16px;
+	color: #000000;
+}
+.contact-all {
+	width: 100%;
+	padding: 90px 0;
+}
+.contact {
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+.contact-title {
+	font-size: 32px;
+	color: #000000;
+}
+.contact-text {
+	padding: 30px 0;
+	font-size: 16px;
+	color: #000000;
+}
+.contact-sub {
+	width: 400px;
+	float: left;
+}
+.contact-sub-title {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.contact-social-icon i {
+	font-size: 50px;
+	display: inline-block;
+	margin-left: 20px;
+}
+footer {
+	width: 100%;
+	height: 60px;
+	padding: 20px 0;
+	text-align: center;
+	background-color: #EC715F;
+}
+.footer-text {
+	color: #FAFAFA;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+	header {
+		width: 100%;
+		height: 50px;
+		padding: 0 5%;
+	}
+	nav {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.logo-image {
+		width:  110px;
+		height: 50px;
+	}
+#humberger {
+  position: relative;
+  height: 36px;
+  width: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #EC715F;
+}
+#humberger div {
+  position: absolute;
+  left: 350px;
+  height: 4px;
+  width: 24px;
+  background-color: white;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+#humberger div:nth-of-type(1) {
+  top: 4px;
+}
+#humberger div:nth-of-type(2) {
+  top: 14px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 4px;
+}
+	.nav-list {
+		text-indent: -9999px;
+	}
+	.main-visual {
+		width: 100%;
+		background-image:url(img2/code.png);
+	}
+	.main-visual-content {
+		width: 90%;
+	}
+	.portfolio-all {
+		width: 100%;
+		padding-bottom: 90px;
+		background-color: #ECEFF1;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.portfolio {
+		width: 90%;
+	}
+	.portfolio-image-all {
+		max-width: 50%;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+	}
+	.portfolio-image {
+		width: 300px;
+		height: 250px;
+		float: none;
+	}
+	.portfolio-image:nth-child(1) {
+		background-image: url(img2/websuku.png);
+		margin-bottom: 10px;
+	}
+	.portfolio-image:nth-child(2) {
+		background-image: url(img2/webcamp.png);
+		margin-bottom: 10px;
+	}
+	.portfolio-image:nth-child(3) {
+		background-image: url(img2/webcamp-mother.png);
+	}
+	.portfolio-image:nth-child(4) {
+		display: none;
+	}
+	.portfolio-image:nth-child(5) {
+		display: none;
+	}
+	.portfolio-image:nth-child(6) {
+		display: none;
+	}
+	.feature-all {
+		width: 100%;
+	}
+	.feature {
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.feature-message {
+		width: 100%;
+		float: none;
+	}
+	.feature-sub-text:nth-of-type(1) {
+		padding-bottom: 10px;
+	}
+	.feature-sub-text:nth-of-type(2) {
+		padding-bottom: 10px;
+	}
+	.profile {
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.profile-image-width {
+		width: 100%;
+	}
+	.profile-sub-content-width {
+		width: 100%;
+		text-align: center;
+	}
+	.contact {
+		width: 90%;
+	}
+	.contact-sub {
+		width: 100%;
+	}
+	.contact-social-icon i {
+		font-size: 50px;
+		display: inline-block;
+		margin-left: 8px;
+	}
+}
