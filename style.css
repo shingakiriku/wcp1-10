@@ -49,6 +49,10 @@ nav {
 	background-size: cover;
 	background-position: center;
 }
+.main-visual-content {
+	width: 1024px;
+	margin: 0 auto;
+}
 .main-visual-name {
 	padding-top: 200px;
 	padding-bottom: 10px;
@@ -69,7 +73,6 @@ nav {
 	margin: 0 auto;
 }
 .portfolio-title {
-	padding-top: 90px;
 	padding-bottom: 8px;
 	text-align: center;
 	color: #000000;
@@ -204,8 +207,10 @@ hr {
 }
 .profile-sub-title {
 	font-size: 20px;
-	padding-top: 30px;
 	padding-bottom: 5px;
+}
+.profile-sub-title:nth-of-type(2) {
+	padding-top: 20px;
 }
 .profile-sub-text {
 	font-size: 16px;
